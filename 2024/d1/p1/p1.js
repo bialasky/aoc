@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const input = fs.readFileSync("input.txt", "utf8").split("\n");
+const input = fs.readFileSync("../input.txt", "utf8").split("\n");
 
 let left = [];
 let right = [];
